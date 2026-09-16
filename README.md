@@ -214,6 +214,14 @@ Certifique-se que o nome da variável seja o mesmo nome definido no script: "GEM
 
 ---------------------------------------------------------------------------------------------------------
 
+## Considerações finais 
+
+O projeto demonstra uma abordagem baseada em dados para a análise das condições de uma nave antes da decolagem.
+
+A utilização de regras determinísticas permite verificar objetivamente se os valores de telemetria estão dentro dos limites definidos. Já a camada de Inteligência Artificial complementa essa análise, permitindo interpretar os resultados e identificar possíveis padrões ou pontos de atenção.
+
+Dessa forma, o projeto combina programação, análise de dados e Inteligência Artificial para construir uma solução de apoio à avaliação operacional de pré-decolagem.
+
 
 
 
