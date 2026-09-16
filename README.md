@@ -69,6 +69,15 @@ O arquivo gerado pode ser utilizado como entrada para o mesmo processo de análi
 
 Essa funcionalidade permite testar o algoritmo com diferentes conjuntos de dados, além do dataset de exemplo disponibilizado no repositório.
 
+----------------------------------------------------------------------------------------------------
+
+## Tecnologias utilizadas
+
+- Python — desenvolvimento do algoritmo;
+- Google Colab — ambiente de execução;
+- Pandas — manipulação e análise dos dados;
+- Dataset de telemetria — fonte dos dados utilizados na análise;
+- Inteligência Artificial / API Gemini — análise complementar dos resultados.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -166,8 +175,46 @@ Certifique-se que o nome da variável seja o mesmo nome definido no script: "GEM
 
 ## Executando o script
 
-1. Carregamento do dataset:
+1. Carregamento do dataset e armazenamento em uma variácel:
 <img width="1467" height="725" alt="image" src="https://github.com/user-attachments/assets/c7d091e2-73a5-40b6-bcc5-35f58465142e" />
+
+2. Verificação dos dados do dataset:
+ <img width="1542" height="581" alt="image" src="https://github.com/user-attachments/assets/7d452bae-75c7-4fc1-b04d-71450dff40e8" />
+
+3. Criando variáveis para receber os dados do dataset:
+<img width="537" height="292" alt="image" src="https://github.com/user-attachments/assets/e7ddf8f6-c3d8-4fd7-8569-e69e9f3ebf4c" />
+
+4. Realização dos fluxos de decisão com base na análise da telemetria e cálculo do nível de energia:
+<img width="950" height="632" alt="image" src="https://github.com/user-attachments/assets/7dd53a79-c304-4d9c-b3e8-28f9e8d90292" />
+
+5. Armazenando os motivos (caso condições falsas, para justificar a decisão de "DECOLAGEM ABORTADA")
+<img width="750" height="123" alt="image" src="https://github.com/user-attachments/assets/011178c0-4d6a-4318-b96c-ed352ea44e50" />
+
+6. Visualizando as decisões:
+<img width="302" height="101" alt="image" src="https://github.com/user-attachments/assets/e016cf84-a48f-4267-a5ba-da2cb2f9d523" />
+<img width="902" height="651" alt="image" src="https://github.com/user-attachments/assets/616896e8-49ce-4483-b664-00932f8dc47f" />
+
+8. Salvando os dados da telemetria e as decisões em um Data Frame:
+<img width="510" height="276" alt="image" src="https://github.com/user-attachments/assets/856a3331-5b2d-42c0-b48e-6303683bd0aa" />
+
+9. Visualizando o Data Frame gerado:
+<img width="762" height="697" alt="image" src="https://github.com/user-attachments/assets/eb902921-79bd-4028-a1b3-6092778270c4" />
+
+10. Conversão o Data Frame para JSON:
+<img width="570" height="138" alt="image" src="https://github.com/user-attachments/assets/9015cb6b-130a-4c39-8234-cadb59caf7b9" />
+
+11. Configurando a API Gemini:
+<img width="957" height="415" alt="image" src="https://github.com/user-attachments/assets/ad6cfd5f-fde8-43d1-bbc5-91102710ad47" />
+
+12. Enviando Prompt para a IA:
+<img width="1008" height="512" alt="image" src="https://github.com/user-attachments/assets/c93ac984-d853-4327-83a2-3943f8a2d2de" />
+
+13. Visualizando a resposta da IA:
+<img width="1792" height="763" alt="image" src="https://github.com/user-attachments/assets/1bcfa42d-d227-458d-8e44-2a9f07bf0f19" />
+
+---------------------------------------------------------------------------------------------------------
+
+
 
 
 
