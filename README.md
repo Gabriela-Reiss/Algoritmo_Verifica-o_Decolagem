@@ -11,6 +11,7 @@ A partir desses dados, o script analisa cada registro e determina se as condiç�
 O resultado da análise pode ser:
 
 ✅ PRONTO PARA DECOLAR
+
 ❌ DECOLAGEM ABORTADA
 
 Quando uma condição não atende aos critérios definidos, o sistema também apresenta o motivo pelo qual a decolagem foi abortada.
