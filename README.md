@@ -47,6 +47,7 @@ Esse arquivo contém registros de telemetria utilizados para testar o algoritmo 
 
 O usuário pode carregar esse arquivo no Google Colab e executar a análise utilizando os dados já preparados.
 
+
 **2. Dataset gerado por Inteligência Artificial**
 
 O projeto também permite que o usuário solicite à Inteligência Artificial a geração de um novo dataset de telemetria em formato .csv.
@@ -87,6 +88,7 @@ O script percorre os registros do dataset e analisa as condições de cada momen
 
 Para cada registro, são obtidas as informações necessárias para realizar as verificações.
 
+
 **-Cálculo da energia disponível**
 
 O nível percentual de energia é calculado utilizando a energia disponível e a energia máxima:
@@ -95,6 +97,8 @@ nivel_energia = (energia_disponivel / energia_maxima) * 100
 ```
 
 Dessa forma, o sistema consegue trabalhar com um percentual de energia em vez de utilizar somente os valores absolutos.
+
+
 
 **-Regras de decisão**
 
@@ -146,6 +150,8 @@ Anexe o arquivo CSV na aba "Arquivos" do Colab, e certifique-se de que o nome do
 
 Após carregar o arquivo, o código realiza a leitura dos dados e inicia o processo de análise.
 
+
+
 **- Executar o algoritmo**
 
 Execute as células responsáveis pela análise da telemetria.
@@ -159,6 +165,7 @@ O programa irá:
 5. Determinar o status da decolagem;
 6. Armazenar os resultados;
 7. Apresentar as decisões e os motivos.
+
 
 
 **-Executar a análise por IA**
