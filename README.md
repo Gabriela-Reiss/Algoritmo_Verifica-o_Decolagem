@@ -218,10 +218,12 @@ Certifique-se que o nome da variável seja o mesmo nome definido no script: "GEM
 <img width="957" height="415" alt="image" src="https://github.com/user-attachments/assets/ad6cfd5f-fde8-43d1-bbc5-91102710ad47" />
 
 12. Enviando Prompt para a IA:
-<img width="1008" height="512" alt="image" src="https://github.com/user-attachments/assets/c93ac984-d853-4327-83a2-3943f8a2d2de" />
+<img width="1830" height="491" alt="image" src="https://github.com/user-attachments/assets/02cb6382-011e-43b9-a1b1-91e26407cf78" />
+
 
 13. Visualizando a resposta da IA:
-<img width="1792" height="763" alt="image" src="https://github.com/user-attachments/assets/1bcfa42d-d227-458d-8e44-2a9f07bf0f19" />
+<img width="1830" height="772" alt="image" src="https://github.com/user-attachments/assets/ffd13e89-0166-45d0-95ff-6979b9cc2097" />
+<img width="1785" height="767" alt="image" src="https://github.com/user-attachments/assets/4e2b74b1-26be-4ab0-8d41-0860989e5821" />
 
 ---------------------------------------------------------------------------------------------------------
 
