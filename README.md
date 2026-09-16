@@ -90,8 +90,9 @@ Para cada registro, são obtidas as informações necessárias para realizar as 
 **-Cálculo da energia disponível**
 
 O nível percentual de energia é calculado utilizando a energia disponível e a energia máxima:
-
+```
 nivel_energia = (energia_disponivel / energia_maxima) * 100
+```
 
 Dessa forma, o sistema consegue trabalhar com um percentual de energia em vez de utilizar somente os valores absolutos.
 
@@ -130,6 +131,7 @@ Antes de executar a análise, o dataset de telemetria deve estar disponível par
 
 O arquivo deve conter as colunas utilizadas pelo algoritmo:
 
+```
 timestamp
 temperatura_interna_c
 temperatura_externa_c
@@ -138,12 +140,14 @@ energia_maxima_kwh
 energia_disponivel_kwh
 pressao_tanque_bar
 status_modulos_criticos
+```
 
 Anexe o arquivo CSV na aba "Arquivos" do Colab, e certifique-se de que o nome do arquivo seja o mesmo definido no algoritmo: "dataset_telemetria.csv", ou o renomeie no código.
 
 Após carregar o arquivo, o código realiza a leitura dos dados e inicia o processo de análise.
 
 **- Executar o algoritmo**
+
 Execute as células responsáveis pela análise da telemetria.
 
 O programa irá:
